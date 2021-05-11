@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina de contacto sobre la tienda de ropa online" >
+    <meta name="author" content="Lucas A. Kempe">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <section>
+        <article>
+            <a href="#menu-vertical" title="enlace para saltar a la navegacion">Jump to Nav</a>
+        </article>
+    </section>
+
+    <header>
+        <h1>Venta online de ropa</h1>
+    </header> 
+
+    <nav id="menu-vertical">
+        <ul>
+            <li><a href="../index.html" title="enlace para ir a la pagina principal">Inicio</a></li>
+            <li><a href="contact.html" title="enlace para ir a la pagina de contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+
+    <section class="main-contact">
+
+    <main>
+        <section class="form">
+            <article>
+                <h2>Contacto</h2>
+                <form action="..php/suscribir.php" method="post">
+                    <fieldset>
+
+                        <label for="name">Nombre:</label>
+                        <input type="text" maxlength="30">
+
+                        <label for="tel">Telefono:</label>
+                        <input type="tel">
+
+                        <label for="news">Suscribirse a novedades de: </label>
+                        <select name="news" id="news">
+                            <option value="">Todo</option>
+                            <option value="">Promociones</option>
+                            <option value="">Talleres</option>
+                            <option value="">Eventos</option>
+                        </select>
+
+                    </fieldset>
+
+                    <input type="submit">
+                </form>
+            </article>
+        </section>
+    </main>
+
+    <aside>
+
+        <figure>
+            <img src="../img/saco-2669pesos.jpg" alt="imagen de una mujer con un saco azul">
+            <figcaption>saco $2669</figcaption>
+        </figure>
+    
+        <figure>
+            <img src="../img/sweter-cuello-cruzado-1633pesos.jpg" alt="imagen de un hombre con un sweter colo rojo con el cuello cruzado">
+            <figcaption>sweter cuello cruzado $1633</figcaption>
+        </figure>
+        
+    </aside>
+
+
+    </section>
+
+    <footer>
+        <a href="mailto:informes@empresa.com.ar" target="_blank" title="enlace para enviar un mail a la empresa"><p>Contacto</p></a>
+    </footer>
+
+</body>
+</html>
